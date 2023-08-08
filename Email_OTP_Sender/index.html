@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OTP Login</title>
+</head>
+
+<body>
+    <h1>OTP Login</h1>
+    <form id="loginForm" action="/login" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="emailInput" name="email" placeholder="Enter your email" required>
+        <button type="button" onclick="sendOTP()">Send OTP</button>
+        <br><br>
+        <label for="otp">OTP:</label>
+        <input type="text" id="otp" name="otp" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
